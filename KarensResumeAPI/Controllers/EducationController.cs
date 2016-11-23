@@ -10,6 +10,7 @@ namespace KarensResumeAPI.Controllers
 {
     public class EducationController : ApiController
     {
+        //Gets all the stuff in the table
         public IEnumerable<Education> GetAllEducations()
         {
             return EducationDao.Instance.GetEducations();
